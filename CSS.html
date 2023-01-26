@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS-Cascading Style Sheets</title>
+<link href="cascading style sheets.css" rel="stylesheet" type="text/css">
+<style>
+	
+body
+	{background-color: #595959;
+	color:#121212;}
+	
+#wrapper{
+	width:1500px;
+	background-color: #c5c5c5;
+	margin:auto;
+	border: solid;
+	border-radius: 10px;
+	}
+	
+header{
+	text-align: center;
+	border: solid;
+	border-width: medium;;
+	border-color: black;
+	height:200px;
+	text-transform: uppercase;
+	padding-top: 50px;
+	}
+
+nav {
+	height: 120px;
+	background-color:#ddbbbb;
+	border: inset;
+	border-width: medium;;
+	border-color: black;
+	}
+	
+ main {
+		background-color: #E8E8E8;
+		width:60%;
+		margin-right: auto;
+		margin-left:auto;
+		border:thin;
+		border-style: solid;
+		border-color: #463F3F;
+		padding-top: 2px;
+		padding-right: 2px;
+		padding-bottom:0px;
+		padding-left:2px;
+	 	float: left;
+	 
+		}
+	
+section {
+    background-color: #A09B9B;
+    border-style: dotted;
+    border-color: #AA7071;		
+	}
+	
+aside{	
+	background-color:#ddbbbb;
+	border: inset;
+	border-width: medium;;
+	border-color: black;
+	right: 0px;
+	float: right;
+	width: 588px;
+	height: 181px;
+	}
+
+footer{
+    clear: both;
+    height: 100px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+		}
+	
+h1 {
+    color: #121212;
+    text-align: center;
+    border: medium solid #000000;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;	
+	font-size: 50px;
+		}
+	
+h2 {color:#121212;
+		
+		}
+	
+h3 {
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		text-align: center;
+		
+		}
+.stand-out-style{
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    background-color: #2f2f2f;
+	color: #ACACAC;
+    margin-left: 30px;
+    padding: 5px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+	
+a:link {
+		text-decoration:none;
+		background-color: #9C6A6B;
+		border: thin solid;
+		border-color: midnightblue;
+		width;150px;
+		padding-right: 3px;
+		padding-left: 3px;
+		text-aligh:center;
+		color:#C8C8C8;
+	}	
+
+a:visited
+	{
+		color:#9C6A6B;
+		background-color:lightgray;
+		text-decoration:underline;
+	}
+	
+a:hover
+	{
+		color:#9C6A6B;
+		background-color:#ddbbbb;
+		text-decoration:underline;
+	}
+	
+a:active
+	{
+		color:#9C6A6B;
+		background-color:lightgray;
+		text-decoration:underline;
+
+	}
+	
+ul  {
+	background-color: #ddbbbb;
+	height: 120px;
+	list-style-type: none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+	}
+li {
+		display:inline;
+		float:left;
+		text-transform: uppercase;
+	 	font-size: 20px;
+		}
+		
+
+
+
+
+</style>
+</head>
+
+<body>
+	<div id="wrapper">
+<header>
+		<h1>CSS-Cascading Style Sheets</h1>
+</header>
+		
+		
+<nav><h2>[The Nav]</h2>
+		
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">html</a></li>
+    <li><a href="#">meta</a></li>
+    <li><a href="#">title</a></li>
+    
+  </ul>
+
+		
+</nav>
+		
+		
+<main><h2>[Main]</h2>
+		
+		
+    <section>
+  <h3>This is my H3 tag style.</h3>
+      
+        <p class="stand-out-style">
+        Stand-out-style applied in this paragraph. Stand out syle applied here. Stand out style applied here.</p>
+      </section>
+		
+		
+</main>
+	<aside><h2>[Aside]</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis voluptatem ipsum molestias quasi repellat reiciendis velit voluptas cumque at optio assumenda laudantium necessitatibus voluptatibus non, facilis ratione nisi ullam harum.</p>
+	
+	  </aside>
+	<footer><h2>[The Footer &copy; Lana 2023]</h2>
+		<p></p>
+		</footer>
+</div>
+</body>
+</html>

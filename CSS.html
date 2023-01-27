@@ -15,7 +15,8 @@ body
 	background-color: #c5c5c5;
 	margin:auto;
 	border: solid;
-	border-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 	}
 	
 header{
@@ -65,17 +66,22 @@ aside{
 		border-color: black;
 		right: 0px;
 		float: right;
-		width: 588px;
-		height: 181px;
+		width: 589px;
+		height: 202px;
 	}
 
 footer{
 		clear: both;
 		height: 100px;
+		border-style: solid;
 		border-bottom-left-radius: 25px;
 		border-bottom-right-radius: 25px;
+		background-image: url("images/footer.png");
+		background-repeat: no-repeat;
+		background-position: bottom right ;
+		background-attachment:fixed;
 		}
-	
+
 h1 {
 		color: #121212;
 		text-align: center;
@@ -110,8 +116,8 @@ a:link {
 		text-decoration:none;
 		background-color: #9C6A6B;
 		border: thin solid;
-		border-color: midnightblue;
-		width;150px;
+		border-color: #494646;
+		width: 150px;
 		padding-right: 3px;
 		padding-left: 3px;
 		text-aligh:center;
@@ -135,7 +141,7 @@ a:hover
 a:active
 	{
 		color:#9C6A6B;
-		background-color:lightgray;
+		background-color:#CCCCCC;
 		text-decoration:underline;
 
 	}
@@ -155,9 +161,6 @@ li {
 		text-transform: uppercase;
 	 	font-size: 20px;
 		}
-		
-
-
 
 
 </style>
@@ -189,13 +192,17 @@ li {
 		
     <section>
   <h3>This is my H3 tag style.</h3>
-      
+		</section>
+	
+      <section>
         <p class="stand-out-style">
         Stand-out-style applied in this paragraph. Stand out syle applied here. Stand out style applied here.</p>
-      </section>
-		
+     </section>
+	
+	
 		
 </main>
+		
 	<aside><h2>[Aside]</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis voluptatem ipsum molestias quasi repellat reiciendis velit voluptas cumque at optio assumenda laudantium necessitatibus voluptatibus non, facilis ratione nisi ullam harum.</p>
 	
